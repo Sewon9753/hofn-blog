@@ -1,0 +1,59 @@
+:root{
+  --brand:#5f7165;--brand-ink:#4a5a4f;--bg:#f6f5f2;--surface:#ffffff;--ink:#1f2421;--muted:#6b6b6b;
+  --line:#e3e1dc;--code-bg:#eeede9;--gutter:16px;--measure:40rem
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --brand:#8ea396;--brand-ink:#a9bcb0;--bg:#15181a;--surface:#1d2124;--ink:#e8e6e1;--muted:#a09d97;
+    --line:#2d3236;--code-bg:#262b2f
+  }
+}
+:root[data-theme="dark"]{
+  --brand:#8ea396;--brand-ink:#a9bcb0;--bg:#15181a;--surface:#1d2124;--ink:#e8e6e1;--muted:#a09d97;
+  --line:#2d3236;--code-bg:#262b2f
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Noto Sans KR","Malgun Gothic",system-ui,sans-serif;line-height:1.75;font-size:17px;word-break:keep-all;overflow-wrap:anywhere}
+a{color:var(--brand);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--brand-ink)}
+.wrap{max-width:var(--measure);margin:0 auto;padding:0 var(--gutter)}
+.site-header{border-bottom:1px solid var(--line);background:var(--surface)}
+.site-header .wrap{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding-top:14px;padding-bottom:14px}
+.site-title{font-weight:700;letter-spacing:.06em;text-decoration:none;color:var(--brand)}
+.site-nav a{font-size:.92rem;color:var(--muted);text-decoration:none;margin-left:14px}
+main{padding:32px 0 56px}
+h1{font-size:1.65rem;line-height:1.35;margin:0 0 12px;letter-spacing:-.01em}
+h2{font-size:1.2rem;margin:2.2em 0 .6em;padding-top:.4em;border-top:1px solid var(--line);color:var(--brand-ink)}
+h3{font-size:1.05rem;margin:1.6em 0 .4em}
+p{margin:0 0 1em}
+img{max-width:100%;height:auto;border-radius:6px}
+blockquote{margin:1.2em 0;padding:.2em 0 .2em 1em;border-left:3px solid var(--brand);color:var(--muted)}
+code{background:var(--code-bg);padding:.1em .35em;border-radius:4px;font-size:.92em}
+pre{background:var(--code-bg);padding:12px;border-radius:6px;overflow-x:auto}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1em 0;font-size:.95rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--code-bg)}
+hr{border:0;border-top:1px solid var(--line);margin:2em 0}
+.post-meta,.muted{color:var(--muted);font-size:.9rem}
+.scene{margin:20px 0 28px;padding:16px 18px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:6px}
+.scene p{margin:0;font-size:1.05rem}
+.scene .scene-axes{margin-top:8px;font-size:.85rem;color:var(--muted)}
+.draft-banner{background:#fff4d6;color:#6b4e00;border:1px solid #f0d58c;padding:10px 14px;border-radius:6px;font-size:.92rem;margin-bottom:20px}
+:root[data-theme="dark"] .draft-banner{background:#3a3220;color:#f2d98a;border-color:#5c4d22}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .draft-banner{background:#3a3220;color:#f2d98a;border-color:#5c4d22}}
+.evidence{margin-top:2.5em;padding:18px;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+.evidence h2{margin-top:0;border-top:0;padding-top:0}
+.tags{list-style:none;padding:0;margin:1.5em 0 0;display:flex;flex-wrap:wrap;gap:8px}
+.tags li{font-size:.85rem;color:var(--muted);background:var(--code-bg);padding:2px 10px;border-radius:999px}
+.post-list{list-style:none;padding:0;margin:0}
+.post-item{padding:18px 0;border-bottom:1px solid var(--line)}
+.post-item a{text-decoration:none;color:var(--ink);font-weight:600;font-size:1.1rem}
+.post-item a:hover{color:var(--brand)}
+.post-item .post-meta{display:block;margin-top:4px}
+.post-scene{margin:6px 0 0;color:var(--muted);font-size:.95rem}
+.empty{padding:40px 0;text-align:center;color:var(--muted)}
+.product-cta{margin-top:2em;padding:16px 18px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+.site-footer{border-top:1px solid var(--line);padding:24px 0 40px;font-size:.85rem;color:var(--muted)}
+.site-footer a{color:var(--muted)}

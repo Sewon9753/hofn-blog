@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>HOFN 블로그</title>
+  <link>https://blog.hofn.co.kr/</link>
+  <description>호픈(HOFN) 판테놀 고함량 스킨케어 브랜드의 공식 블로그. 제품을 쓰는 장면과 그 근거를 질문에 대한 답으로 적습니다.</description>
+  <language>ko</language>
+  <atom:link href="https://blog.hofn.co.kr/feed.xml" rel="self" type="application/rss+xml"/>
+</channel>
+</rss>

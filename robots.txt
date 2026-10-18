@@ -1,2 +1,25 @@
 User-agent: *
 Allow: /
+Disallow: /drafts/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /drafts/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /drafts/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /drafts/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /drafts/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /drafts/
+
+Sitemap: https://blog.hofn.co.kr/sitemap.xml

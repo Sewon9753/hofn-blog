@@ -1,0 +1,31 @@
+{
+  "site_name": "HOFN 블로그",
+  "site_url": "https://blog.hofn.co.kr",
+  "site_description": "호픈(HOFN) 판테놀 고함량 스킨케어 브랜드의 공식 블로그. 제품을 쓰는 장면과 그 근거를 질문에 대한 답으로 적습니다.",
+  "language": "ko",
+  "brand": {
+    "name": "HOFN",
+    "alternate_name": "호픈",
+    "url": "https://hofn.co.kr"
+  },
+  "publisher": {
+    "name": "주식회사 파인핸스",
+    "url": "https://hofn.co.kr"
+  },
+  "product_default": {
+    "name": "호픈 판테놀 15.5% 크림",
+    "url": "https://hofn.co.kr/product/detail.html?product_no=35",
+    "category": "스킨케어 / 크림"
+  },
+  "nine_questions": [
+    "누구에게",
+    "어떤 상황에",
+    "어떤 불편·목적을 해결하나",
+    "중요한 선택 기준",
+    "그 근거",
+    "유사 제품과의 차이",
+    "사용 전후 변화",
+    "주의 조건·한계",
+    "실사용자는 어떤 상황에서 왜 좋게 보나"
+  ]
+}
