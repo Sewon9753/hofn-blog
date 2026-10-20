@@ -6,10 +6,12 @@ draft: false
 slug: cep-cleanse-20-cleanser
 scene: "SNS에서 살리실산 이야기를 자주 보던 사람이 저녁 세안을 마치고, 단계를 늘리지 않고 세안제부터 바꿔볼 수 있을지 성분표를 찾아본다."
 pillar: "성분 트렌드 탐색"
+pillar_id: p2610c01
 spoke: "저녁 세안 직후"
 product: "호픈 BHA 약산성 폼 클렌저"
 product_url: "https://www.hofn.co.kr/product/detail.html?product_no=33"
 landing_url: "https://www.hofn.co.kr/product/detail.html?product_no=33"
+cta_url: "https://www.hofn.co.kr/product/detail.html?product_no=33&utm_source=owned_blog&utm_medium=referral&utm_campaign=cont_cl_blog_search_2610&utm_content=p2610c01_blog"
 description: "SNS에서 살리실산을 보고 세안 단계에서 시작하려는 사람을 위해 정리했습니다. 매일 써도 되는 강도인지, 약산성 pH 5.69와 자극지수 0.000의 근거, 사용 감각과 주의 조건을 9문 9답으로 담았습니다."
 tags: [살리실산, 살리실산폼클렌징, 약산성클렌저, BHA클렌저, 호픈]
 evidence:

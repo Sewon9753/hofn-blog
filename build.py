@@ -255,6 +255,8 @@ def load_posts(site, use_lib):
             product["name"] = meta["product"]
         if meta.get("product_url"):
             product["url"] = meta["product_url"]
+        # 본문 하단 제품 링크만 UTM(cta_url, owned_blog/referral) — ld+json Product.url 은 원본 product_url 유지
+        product["cta_url"] = meta.get("cta_url") or product["url"]
         rel = ("drafts/%s/" if draft else "posts/%s/") % slug
         posts.append({
             "file": fn, "slug": slug, "draft": draft, "meta": meta,
@@ -336,7 +338,7 @@ def build(strict=False, use_lib=False):
             "is_updated": p["updated"] != p["date"],
             "content": p["body_html"], "evidence": p["evidence_html"],
             "ld_json": ld_json(p, site),
-            "product_name": p["product"]["name"], "product_url": p["product"]["url"],
+            "product_name": p["product"]["name"], "product_url": p["product"]["cta_url"],
             "brand_name": site["brand"]["name"], "brand_url": site["brand"]["url"],
             "publisher_name": site["publisher"]["name"],
             "tags_html": "".join('<li>%s</li>' % html.escape(t) for t in p["tags"]),
